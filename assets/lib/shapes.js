@@ -78,12 +78,18 @@ class Square extends Shapes {
   }
 }
 
-const newTriangle = new Triangle(
-  "pointy",
-  "cool",
-  "looks like a taco kinda",
-  "pointy",
-  "best shape"
-);
+module.exports = {
+  Circle,
+  Square,
+  Triangle,
+};
 
-console.log(newTriangle);
+// const newTriangle = new Triangle(
+//   "pointy",
+//   "cool",
+//   "looks like a taco kinda",
+//   "pointy",
+//   "best shape"
+// );
+
+// console.log(newTriangle);
