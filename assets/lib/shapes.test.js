@@ -1,14 +1,15 @@
 // DESCRIPTION
 // Jest tests for shapes
-const Circle = require("./shapes");
+const Circle = require("./shapes.js");
 
 describe("Circle", () => {
   describe("circle", () => {
-    it("should render a blue cicle with white text that states, HI!");
-    const circle = new Circle("darkgreen", "HEY", "yellow");
-    expect(circle.render()).toEqual(
-      `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="100" r="80" fill="darkgreen" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow">HEY</text></svg>`
-    );
+    it("should render a dark green cicle with yellow text that states, HEY", () => {
+      const circle = new Circle("darkgreen", "HEY", "yellow");
+      expect(circle.render()).toEqual(
+        `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="150" cy="100" r="80" fill="darkgreen" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="yellow">HEY</text></svg>`
+      );
+    });
   });
 });
 // triangle.setColor("blue");
