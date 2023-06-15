@@ -2,6 +2,10 @@
 
 Repository for Module 10 Challenge submission, through DU's Full-Stack Coding Boot Camp.
 
+### DESCRIPTION
+
+#### App description, link to video, setup and usage instructions
+
 ---
 
 ## User Story

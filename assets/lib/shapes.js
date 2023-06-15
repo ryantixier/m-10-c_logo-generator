@@ -1,3 +1,6 @@
+// DESCRIPTION
+// Exports `Triangle`, `Circle`, and `Square` classes
+
 class Shapes {
   // Shapes class; specific shape (Cir., Tri., Squ.) classes will inheret placeholderX values from Shapes class object
   // ... will add new, specific values to their respective object values
@@ -58,9 +61,9 @@ class Square extends Shapes {
   ) {
     super(placeholder1, placeholder2, placeholder3);
     // reflects origin template - Shapes class object
-    this.placeholderTri1 = placeholderSqu1;
+    this.placeholderSqu1 = placeholderSqu1;
     // adds placeholderSqu1 values to (this) Square class
-    this.placeholderTri2 = placeholderSqu2;
+    this.placeholderSqu2 = placeholderSqu2;
     // adds placeholderSqu2 values to (this) Square class
   }
 }
