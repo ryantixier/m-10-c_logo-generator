@@ -43,4 +43,7 @@ inquirer
       shape = new Square(res.shapeColor, res.text, res.textColor);
     }
     fs.writeFileSync("./assets/examples/logo.svg", shape.render());
+  })
+  .then(() => {
+    console.log("Generated logo.svg");
   });
