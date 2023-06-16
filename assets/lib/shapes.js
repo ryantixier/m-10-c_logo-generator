@@ -64,5 +64,3 @@ module.exports = {
   Square,
   Triangle,
 };
-
-console.log(Circle);
