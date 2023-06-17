@@ -1,6 +1,3 @@
-// DESCRIPTION
-// Runs the application using imports from lib/
-
 const { Circle, Square, Triangle } = require("./assets/lib/shapes");
 const fs = require("fs");
 

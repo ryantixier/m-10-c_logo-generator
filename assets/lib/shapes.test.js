@@ -1,8 +1,5 @@
-// DESCRIPTION
-// Jest tests for shapes
 const { Circle, Square, Triangle } = require("./shapes");
 
-// Circle test: ✅
 describe("Circle", () => {
   describe("circle", () => {
     it("should render a dark green circle with yellow text that states, HAI", () => {
@@ -14,7 +11,6 @@ describe("Circle", () => {
   });
 });
 
-// Square test: ✅
 describe("Square", () => {
   describe("square", () => {
     it("should render a dark red square with yellow text that states, HEY", () => {
@@ -26,7 +22,6 @@ describe("Square", () => {
   });
 });
 
-// Triangle test: ✅
 describe("Triangle", () => {
   describe("triangle", () => {
     it("should render a dark blue triangle with yellow text that states, YO!", () => {
