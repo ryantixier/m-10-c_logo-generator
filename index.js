@@ -1,6 +1,5 @@
 const { Circle, Square, Triangle } = require("./assets/lib/shapes");
 const fs = require("fs");
-
 const inquirer = require("inquirer");
 
 inquirer
