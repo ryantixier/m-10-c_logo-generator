@@ -2,19 +2,28 @@
 
 ### DESCRIPTION
 
-See below for application details and screenshots. Reference the YouTube link for a walkthrough demonstration of the application and its tests.
+See below for application details, and for screenshots of example responses and the logo they generate; reference the YouTube link for a walkthrough demonstration of the application and its tests.
 
 #### About the Application
 
+This application was created so that freelance web developers could generate simple logos for their projects without having to pay a graphic designer to do so. After answering a series of prompts, the program will generate a circle, triangle, or square logo with a text overlay consisting of up to three-characters.
+
 #### Screenshots
+
+Example of required input responses:
+
+![Sample inputs](./assets/sample-photos/sample-prompts.png)
+
+Example of generated logo, based on example input responses above:
+
+![Generated sample logo](./assets/sample-photos/sample-logo.png)
 
 #### Links
 
-Walkthrough Video:
+Walkthrough Demo:
+https://www.youtube.com/watch?v=i5uWCgjxsBQ
 
-<!-- youtube link -->
-
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -36,7 +45,7 @@ npm init -y
 npm install --save inquirer@^8.0.0
 ```
 
-Code was checked and verified using Jest javascript testing. After completing the steps above, enter the following line of code in your terminal to set up testing capabilities.
+All code was checked and verified using Jest javascript testing. After completing the steps above, enter the following line of code in your terminal to set up testing capabilities...
 
 ```
 npm install --save-dev jest
@@ -48,6 +57,22 @@ npm install --save-dev jest
 
 Follow these steps below to generate a custom logo.svg file...
 
+1. Open a terminal
+2. Type the following command:
+
+```
+node index.js
+```
+
+3. Use the arrow keys to select your shape: circle, triangle, or square
+4. Type the color code OR hexidecimal number to specify your desired shape color
+5. Type the text (maximum 3 characters) that you want to overlay your shape
+6. Type the color code OR hexidecimal number to specify your desired text color
+
+A confirmation, "Generated logo.svg" will log in the terminal, and a logo.svg file will be generated. This file contains the logo that matches your specifications.
+
+For information on how to test the code, see [Tests](#tests) below.
+
 ## Credits
 
 The developer utilized tutoring available through the University of Denver's Full-Stack Coding Boot Camp for portions of the code; all other code was scripted by the repository owner (see [Contact](#contact) below for details).
@@ -58,35 +83,14 @@ N/A
 
 ## Tests
 
-Tests can be run for each shape; sample code blocks for these tests are located in the shapes.test.js file in this repository.
+Tests can be run for all shapes; sample code blocks for testing are located in the shapes.test.js file in this repository. To run a test, open a terminal and run the following command:
+
+```
+npm run test
+```
 
 ## Contact
 
 GitHub Profile: https://github.com/ryantixier
 
 Email: ryan.m.tixier@gmail.com
-
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-<!--  -->
-
----
-
-## User Story
-
-AS a freelance web developer
-
-I WANT to generate a simple logo for my projects
-
-SO THAT I don't have to pay a graphic designer
